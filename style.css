@@ -19,14 +19,15 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #fc2580;
+    /* background: #fc2580; */
+    background: #fcc024;
     padding: 10px 20px;
     font-size: 1rem;
     font-weight: bold;
 }
 
 .top-banner span {
-    color: #fff;
+    color: #000;
 }
 
 .countdown {
@@ -369,6 +370,49 @@ a {
 }
 .footer-bottom .credit span {
     color: #fff;
+}
+
+/* Animations */
+/* Animations */
+.fade-in {
+    opacity: 0;
+    transform: translateY(30px);
+    animation: fadeUp 1.2s ease forwards;
+}
+  
+@keyframes fadeUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+  
+section, .gallery img, .bff-gallery img, .footer-top, .footer-links, .socials {
+    opacity: 0;
+    transform: translateY(40px);
+    transition: all 0.8s ease;
+}
+  
+.show {
+    opacity: 1 !important;
+    transform: translateY(0) !important;
+}
+  
+/* Button Hover Glow */
+.btn:hover, .btn-secondary:hover, .visit-btn:hover {
+    box-shadow: 0 0 15px rgba(255,255,255,0.5);
+    transform: scale(1.05);
+}
+  
+/* Input Wiggle */
+    .email-form input:focus, .email-form button:focus {
+    animation: wiggle 0.3s ease;
+}
+  
+@keyframes wiggle {
+    25% { transform: rotate(1deg); }
+    50% { transform: rotate(-1deg); }
+    75% { transform: rotate(1deg); }
 }
   
 /* Responsive(footer) */
