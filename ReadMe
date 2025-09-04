@@ -1,3 +1,20 @@
 pink = #fc2580
 green = #24fc53
 yellow = #fcc024
+
+Website is fully functional and 99% responsive
+Do not tamper with file names as it could stop functionality of certain features
+
+## Git push codes
+git init
+git status
+git add .
+git commit -m "wetnwavy"
+git remote add origin https://github.com/Danicon04/wetnwavy.git
+git push origin master
+
+
+## Git after changes code
+git add .
+git commit -m "wetnwavy"
+git push origin master
