@@ -1,52 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rave Experience</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="top-banner">
+        <span>Next event</span>
+        <div class="countdown" id="countdown">00:00:00:00</div>
+    </div>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <img src="imgLogo.png" alt="wavy Logo" width="300" style="margin-bottom:20px">
+            
+            <!-- Buttons Row -->
+            <div>
+                <a href="https://wa.me/9042525533" class="btn btn-green">Contact</a>
+                <a href="#" class="btn btn-yellow">Buy Tickets🎟️</a>
+            </div>
 
-<!-- Hero Section -->
-<section class="hero">
-    <div class="hero-content">
-        <img src="imgLogo.png" alt="wavy Logo" width="300" style="margin-bottom:20px">
-        
-        <!-- Buttons Row -->
-        <div>
-            <a href="#" class="btn btn-green">Contact</a>
-            <a href="#" class="btn btn-yellow">Buy Tickets🎟️</a>
+            <!-- Main Text -->
+            <h1>Experience the Biggest<br> Wavy Experience</h1>
+
+            <!-- Large Buy Button -->
+            <a href="https://wa.me/9042525533" class="btn-secondary">Become a Vendor </a>
         </div>
+    </section>
 
-        <!-- Main Text -->
-        <h1>Experience the Biggest<br> Wavy Experience</h1>
+    <!-- Welcome Section -->
+    <section class="welcome">
+        <h2>Welcome to the <br> Wavy Site</h2>
+        <p>where unforgettable entertainment meets vibrant connections!</p>
+    </section>
 
-        <!-- Large Buy Button -->
-        <a href="#" class="btn-secondary">Become a Vendor </a>
-    </div>
+    <!-- Gallery Section -->
+    <section class="gallery">
+        <img src="imgG4.jpg" alt="Event Image 1">
+        <img src="imgG3.jpg" alt="Event Image 2">
+        <img src="imgG6.jpg" alt="Event Image 2">
+    </section>
 
-    <!-- Decorative Leaf -->
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Simple_leaf.svg/768px-Simple_leaf.svg.png" alt="Leaf" class="leaf">
-</section>
+    <!-- BFF Section with Merch & Gallery -->
+    <section class="bffs">
+        <h3>WAVVVVYYYY BFFS</h3>
+        <p>Vibe with your friends and turn up the memories every time the music hits and the liquor kicks in!</p>
 
-<!-- Welcome Section -->
-<section class="welcome">
-    <h2>Welcome to <br> Wavy Site</h2>
-    <p>where unforgettable entertainment meets vibrant connections!</p>
-</section>
-
-<!-- Gallery Section -->
-<section class="gallery">
-    <img src="imgG4.jpg" alt="Event Image 1">
-    <img src="imgG3.jpg" alt="Event Image 2">
-    <img src="imgG6.jpg" alt="Event Image 2">
-</section>
-
-<!-- BFF Section with Merch & Gallery -->
-<section class="bffs">
-    <h3>WAVVVVYYYY BFFS</h3>
-    <p>Link up with your friends & create amazing memories whenever the music drops & the liquor hits!</p>
-
-    <div class="bff-gallery">
-        <img src="imgG8.jpg" alt="Friends Photo 1">
-        <p class="bff-text">Rock The Rave Vibe! <br> Rep the party with our exclusive merch.</p>
-        <img src="imgG5.jpg" alt="Friends Photo 2">
-    </div>
-    <br>
-    <a href="#" class="visit-btn">Visit Gallery →</a>
-</section>
-<script src="script.js"></script>
+        <div class="bff-gallery">
+            <img src="imgG8.jpg" alt="Friends Photo 1">
+            <p class="bff-text">Rock The WAVY Vibe! <br> Flaunt your style with our signature party gear.</p>
+            <img src="imgG5.jpg" alt="Friends Photo 2">
+        </div>
+        <br>
+        <a href="#" class="visit-btn">Visit Gallery →</a>
+    </section>
+    <footer class="footer">
+        <div class="footer-top">
+            <h2 class="tagline">Never miss an event,<br>Always remain Wavy</h2>
+            <p class="subtext">Join our email list today and be the first to know about upcoming events.</p>
+            
+            <form class="email-form">
+                <input type="email" placeholder="youremail@email.com" required>
+                <button type="submit">STAY IN THE LOOP</button>
+            </form>
+        </div>
+    
+        <div class="footer-links">
+            <a href="#">Home</a> | 
+            <a href="#">About</a> | 
+            <a href="#">Gallery</a> | 
+            <a href="#">Buy Tickets</a> | 
+            <a href="#">Vendor</a>
+        </div>
+    
+        <div class="socials">
+            <a href="#"><i class="ri-instagram-line"></i></a>
+            <a href="#"><i class="ri-twitter-x-line"></i></a>
+            <a href="#"><i class="ri-tiktok-fill"></i></a>
+            <a href="#"><i class="ri-youtube-fill"></i></a>
+        </div>
+    
+        <div class="footer-bottom">
+            <p>© <span id="years"></span> Wet N' Wavy. All rights Reserved.</p>
+            <p class="credit">made by <span>Icon Media.</span></p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
 </body>
 </html>
