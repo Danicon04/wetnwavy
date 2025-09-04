@@ -1,0 +1,63 @@
+    <?php
+        require "header.php";
+    ?>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <img src="imgLogo.png" alt="wavy Logo" width="300" style="margin-bottom:20px">
+            
+            <!-- Buttons Row -->
+            <div>
+            <a href="#" class="btn btn-green">Contact</a>
+            <a href="#" class="btn btn-yellow">Buy Tickets🎟️</a>
+            </div>
+
+            <!-- Main Text -->
+            <h1>Experience the Biggest<br> Wavy Experience</h1>
+
+            <!-- Large Buy Button -->
+            <a href="#" class="btn-secondary">Become a Vendor </a>
+
+            <!-- Upcoming Events -->
+            <!-- <div class="upcoming">
+            <a href="#">Upcoming events »</a>
+            </div> -->
+        </div>
+
+        <!-- Decorative Leaf -->
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Simple_leaf.svg/768px-Simple_leaf.svg.png" alt="Leaf" class="leaf">
+    </section>
+
+    <!-- Welcome Section -->
+    <section class="welcome">
+        <h2>Welcome to <br> Wavy Site</h2>
+        <p>where unforgettable entertainment meets vibrant connections!</p>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery">
+        <img src="imgG4.jpg" alt="Event Image 1">
+        <img src="imgG3.jpg" alt="Event Image 2">
+        <img src="imgG6.jpg" alt="Event Image 2">
+    </section>
+
+    <!-- BFF Section with Merch & Gallery -->
+    <section class="bffs">
+        <h3>WAVVVVYYYY BFFS</h3>
+        <p>Link up with your friends & create amazing memories whenever the music drops & the liquor hits!</p>
+
+        <div class="bff-gallery">
+            <img src="imgG8.jpg" alt="Friends Photo 1">
+            <p class="bff-text">Rock The Rave Vibe! <br> Rep the party with our exclusive merch.</p>
+            <img src="imgG5.jpg" alt="Friends Photo 2">
+        </div>
+        <br>
+        <a href="#" class="visit-btn">Visit Gallery →</a>
+    </section>
+
+    <?php
+        include "footer.php";
+    ?>
+    <script src="script.js"></script>
+</body>
+</html>
